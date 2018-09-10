@@ -7,7 +7,7 @@ from userCenter.models import RegisterUserObject
 
 def login_view(request):
     if request.method == 'GET':
-        return render_to_response('users/index.html')
+        return render_to_response('users/login.html')
     elif request.method == 'POST':
         print(request.body)
         username = request.POST['username']
