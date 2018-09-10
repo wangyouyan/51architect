@@ -30,10 +30,10 @@ ALLOWED_HOSTS = []
 
 #config mail
 MAIL_ENABLE = 1
-EMAIL_HOST = 'smtp.163.com'
+EMAIL_HOST = 'mail.aliyun.com'
 EMAIL_PORT = 25
-EMAIL_HOST_USER = 'jumpserver001@163.com'
-EMAIL_HOST_PASSWORD = 'Lenovo2017'
+EMAIL_HOST_USER = 'i51architect@aliyun.com'
+EMAIL_HOST_PASSWORD = '!@#$#$$$$$$$$$$'
 EMAIL_USE_TLS = False
 
 # Application definition
