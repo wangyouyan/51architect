@@ -9,9 +9,9 @@ from userCenter.views.register import regiester_view
 from userCenter.views.reset_password import reset_password_view
 
 urlpatterns = [
-    url(r'^login/', login_view, name='login'),
-    url(r'^logout/', logout_view, name='logout'),
-    url(r'^register/', regiester_view, name='register'),
-    url(r'^reset_password/', reset_password_view, name='reset_password'),
+    url(r'^login$', login_view, name='login'),
+    url(r'^logout$', logout_view, name='logout'),
+    url(r'^register$', regiester_view, name='register'),
+    url(r'^reset_password$', reset_password_view, name='reset_password'),
 ]
 

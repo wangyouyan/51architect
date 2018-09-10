@@ -28,6 +28,15 @@ DEBUG = True
 ALLOWED_HOSTS = []
 
 
+#config mail
+MAIL_ENABLE = 1
+EMAIL_HOST = 'smtp.163.com'
+EMAIL_PORT = 25
+EMAIL_HOST_USER = 'jumpserver001@163.com'
+EMAIL_HOST_PASSWORD = 'Lenovo2017'
+# EMAIL_HOST_PASSWORD = 'OpenStack001'
+EMAIL_USE_TLS = False
+
 # Application definition
 
 INSTALLED_APPS = (
@@ -89,7 +98,7 @@ DATABASES = {
 
 LANGUAGE_CODE = 'en-us'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'Asia/Shanghai'
 
 USE_I18N = True
 
